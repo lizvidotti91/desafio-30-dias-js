@@ -1,5 +1,7 @@
 # Desafio 30 dias de JavaScript
 
+* [Link para os desafios](https://lizvidotti91.github.io/desafio-30-dias-js/); 
+
 ## Objetivo
 
 Melhorar as habilidades de codificação fazendo mini-projetos diários utilizando HTML5, CSS3 e JavaScript. Estarei fazendo o máximo para cumprir os 30 dias corridos!
