@@ -1,6 +1,6 @@
 # Dia 01 - Tocando Bateria
 
-![Dia 01 - Bateria](./_Dia 1 - Bateria_..mp4?raw=true "Dia 01 - Bateria")
+![Dia 01 - Bateria](./video.mp4?raw=true "Dia 01 - Bateria")
 
 ## Tecnologias Usadas
 

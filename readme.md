@@ -19,7 +19,7 @@ Gostou da ideia? [Clique aqui](https://github.com/wesbos/JavaScript30) para part
 
 ## Desafios
 
-* [Dia 01]('./Dia 1'); 
+* [Dia 01](https://github.com/lizvidotti91/desafio-30-dias-js/tree/main/Dia%201); 
 
 ## Autora
 
