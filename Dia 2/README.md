@@ -13,3 +13,4 @@
 ## O que eu aprendi
 
 * [Date](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Date); 
+* [Set Interval](https://www.w3schools.com/jsref/met_win_setinterval.asp); 
