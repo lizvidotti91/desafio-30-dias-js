@@ -58,3 +58,17 @@ p{
 .key span{
     font: normal 2vh monospace;
 }
+
+.btn-inicio{
+    border: 3px solid whitesmoke;
+    border-radius: 1vh;
+    color: whitesmoke;
+    font: bold 3vh monospace;
+    margin-top: 4vh;
+    padding: 1vh;
+    transition: 0.03s;
+}
+
+.btn-inicio:hover{
+    box-shadow: 0 0 20px #A33B20;
+}

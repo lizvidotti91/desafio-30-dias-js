@@ -1,0 +1,139 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    align-items: center;
+    background-color: #0D1821;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+}
+
+h1{
+    color: #F0F4EF;
+    font: bold 3vh monospace;
+    margin-bottom: 4vh;
+}
+
+.clock-face{
+    border: 10px solid #F0F4EF;
+    border-radius: 50%;
+    height: 50vh;
+    position: relative;
+    width: 50vh;
+}
+
+.clock-hour, .clock-minute, .clock-second{
+    background-color: #B4CDED;
+    height: 1vh;
+    position: absolute;
+    top: 50%;
+    transition: all 0.05s;
+    transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+    transform: rotate(90deg);
+    transform-origin: 100%;
+}
+
+.clock-second{
+    height: 0.5vh;
+    left: 0;
+    width: 50%;
+}
+
+.clock-minute{
+    left: 10%;
+    width: 40%;
+}
+
+.clock-hour{
+    left: 20%;
+    width: 30%;
+}
+
+.number{
+    color: #F0F4EF;
+    font: normal 4vh monospace;
+    position: absolute;
+}
+
+.number:nth-child(4){
+    right: 23%;
+    top: 6%;
+}
+
+.number:nth-child(5){
+    right: 8%;
+    top: 26%;
+}
+
+.number:nth-child(6){
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.number:nth-child(7){
+    bottom: 26%;
+    right: 8%;
+}
+
+.number:nth-child(8){
+    bottom: 6%;
+    right: 23%;
+}
+
+.number:nth-child(9){
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.number:nth-child(10){
+    bottom: 6%;
+    left: 23%;
+}
+
+.number:nth-child(11){
+    bottom: 26%;
+    left: 8%;
+}
+
+.number:nth-child(12){
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.number:nth-child(13){
+    left: 8%;
+    top: 26%;
+}
+
+.number:nth-child(14){
+    left: 23%;
+    top: 6%;
+}
+
+.number:nth-child(15){
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+}
+
+.btn-inicio{
+    border: 3px solid whitesmoke;
+    border-radius: 1vh;
+    color: whitesmoke;
+    font: bold 3vh monospace;
+    margin-top: 4vh;
+    padding: 1vh;
+    transition: 0.03s;
+}
+
+.btn-inicio:hover{
+    box-shadow: 0 0 20px #A33B20;
+}
