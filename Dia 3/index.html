@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>.:Dia 3 - Brincando com variáveis no CSS:.</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Dia 3 - Brincando com variáveis no CSS</h1>
+    <div class="container">
+        <div class="controls">
+            <div class="blur-control">
+                <!-- Note que fixamos a unidade de medida dos inputs em data-sizing -->
+                <label for="blur">Blur:</label>
+                <input type="range" name="blur" id="blur" data-sizing="px" value="0">
+            </div>
+            <div class="shadow-control">
+                <p>Box Shadow:</p>
+                <label for="h-offset">H-offset:</label>
+                <input type="range" name="h-offset" id="h-offset" data-sizing="px" value="0">
+                <label for="v-offset">V-offset:</label>
+                <input type="range" name="v-offset" id="v-offset" data-sizing="px" value="0">
+                <label for="blur-shadow">Blur:</label>
+                <input type="range" name="blur-shadow" id="blur-shadow" data-sizing="px" value="0">
+                <label for="color">Color:</label>
+                <input type="color" name="color" id="color">
+            </div>
+            <div class="bright-control">
+                <label for="brightness">Brightness:</label>
+                <input type="range" name="brightness" id="brightness" data-sizing="%" value="100">
+            </div>
+            <div class="contrast-control">
+                <label for="contrast">Contrast:</label>
+                <input type="range" name="contrast" id="constrast" data-sizing="%" value="100">
+            </div>
+            <div class="gray-scale-control">
+                <label for="grayscale">Grayscale:</label>
+                <input type="range" name="grayscale" id="grayscale" data-sizing="%" value="0">
+            </div>
+            <div class="invert-control">
+                <label for="invert">Invert:</label>
+                <input type="range" name="invert" id="invert" data-sizing="%" value="0">
+            </div>
+            <div class="sepia-control">
+                <label for="sepia">Sepia:</label>
+                <input type="range" name="sepia" id="sepia" data-sizing="%" value="0">
+            </div>
+        </div>
+        <img src="./img/pexels-photo-2128339.jpeg" alt="Rua com guarda-sóis">
+    </div>
+    <a class="btn-inicio" href="../index.html">Voltar</a>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>

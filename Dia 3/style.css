@@ -1,0 +1,81 @@
+:root{
+    --blur: 0px;
+    --brightness: 100%;
+    --contrast: 100%;
+    --grayscale: 0%;
+    --h-offset: 0px;
+    --v-offset: 0px;
+    --blur-shadow: 0px;
+    --color: transparent;
+    --invert: 0%;
+    --sepia: 0%
+}
+
+*{
+    box-sizing: border-box;
+    font-family: monospace;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #073b4c;
+}
+
+h1{
+    color: #EF476F;
+    font: bold 5vh monospace;
+    margin: 3vh 0 2vh;
+    text-align: center;
+}
+
+.container{
+    background-color: #93B7BE;
+    display: flex;
+    height: 80vh;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 8vh;
+    width: 50vw;
+}
+
+.controls{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 3vh;
+    height: 100%;
+    justify-content: center;
+}
+
+.controls div{
+    margin: 1vh 0;
+}
+
+.shadow-control{
+    background-color: #FFD166;
+    display: flex;
+    flex-direction: column;
+    padding: 1vh;
+    width: 100%;
+}
+
+img{
+    box-shadow: var(--h-offset) var(--v-offset) var(--blur-shadow) var(--color);
+    filter: blur(var(--blur)) brightness(var(--brightness)) contrast(var(--contrast)) grayscale(var(--grayscale)) invert(var(--invert)) sepia(var(--sepia));
+    height: 100%;
+}
+
+.btn-inicio{
+    border: 3px solid whitesmoke;
+    border-radius: 1vh;
+    color: whitesmoke;
+    font: bold 3vh monospace;
+    margin-left: 80%;
+    padding: 1vh;
+    transition: 0.03s;
+}
+
+.btn-inicio:hover{
+    box-shadow: 0 0 20px #A33B20;
+}
