@@ -1,0 +1,39 @@
+body{
+    background-color: #7C6A0A;
+    font-family: monospace;
+}
+
+h1{
+    font-size: 5vh;
+    margin: 4vh;
+    text-align: center;
+}
+
+p{
+    font-size: 3vh;
+    text-align: center;
+}
+
+ul{
+    font-size: 2vh;
+    margin: 0 auto;
+    width: 20vw;
+}
+
+.container{
+    margin: 5vh auto;
+    width: 10vw;
+}
+
+.btn-inicio{
+    border: 3px solid whitesmoke;
+    border-radius: 1vh;
+    color: whitesmoke;
+    font: bold 3vh monospace;
+    padding: 1vh;
+    transition: 0.03s;
+}
+
+.btn-inicio:hover{
+    box-shadow: 0 0 20px #FA9500;
+}

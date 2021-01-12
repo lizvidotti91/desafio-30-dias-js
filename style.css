@@ -10,7 +10,7 @@
     display: flex;
     flex-direction: column;
     font-family: monospace;
-    height: 100vh;
+    min-height: 100vh;
     justify-content: center;
 }
 
@@ -18,7 +18,7 @@ h1{
     border-bottom: 2px solid #FFFFFF;
     color: #ffffff;
     font-size: 5vh;
-    margin: 8vh;
+    margin: 8vh 0 2vh;
     padding-bottom: 2vh;
     text-align: center;
     width: 90%;
@@ -28,10 +28,7 @@ h1{
     align-items: center;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    min-height: 50vh;
     list-style: none;
-    overflow: hidden;
     width: 100%;
 }
 
@@ -43,11 +40,13 @@ h1{
     padding: 10px;
     text-align: center;
     transition: 0.3s;
-    width: 8vw;
+    width: 20vw;
 }
 
 .list li:hover{
-    box-shadow: 0 0 20px #fca311;
+    background-color:  #fca311;
+    border: none;
+    box-shadow: 0 0 20px whitesmoke;
 }
 
 .list li a{
@@ -56,6 +55,7 @@ h1{
     transition: 0.3s;
 }
 
-.list li a:hover{
+.list li:hover a{
+    color: #14213d;
     text-decoration: underline;
 }
