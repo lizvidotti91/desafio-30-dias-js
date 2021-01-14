@@ -25,6 +25,7 @@ Gostou da ideia? [Clique aqui](https://github.com/wesbos/JavaScript30) para part
 * [Dia 02 - Relógio](https://github.com/lizvidotti91/desafio-30-dias-js/tree/main/Dia%202); 
 * [Dia 03 - Brincando com as variáveis CSS](https://github.com/lizvidotti91/desafio-30-dias-js/tree/main/Dia%203); 
 * [Dia 04 - Array Parte 1](https://github.com/lizvidotti91/desafio-30-dias-js/tree/main/Dia%204); 
+* [Dia 05 - Painéis Flexíveis](https://github.com/lizvidotti91/desafio-30-dias-js/tree/main/Dia%205); 
 
 ## Autora
 
