@@ -26,6 +26,7 @@ Gostou da ideia? [Clique aqui](https://github.com/wesbos/JavaScript30) para part
 * [Dia 03 - Brincando com as variáveis CSS](https://github.com/lizvidotti91/desafio-30-dias-js/tree/main/Dia%203); 
 * [Dia 04 - Array Parte 1](https://github.com/lizvidotti91/desafio-30-dias-js/tree/main/Dia%204); 
 * [Dia 05 - Painéis Flexíveis](https://github.com/lizvidotti91/desafio-30-dias-js/tree/main/Dia%205); 
+* [Dia 06 - Busca por municípios brasileiros](https://github.com/lizvidotti91/desafio-30-dias-js/tree/main/Dia%206); 
 
 ## Autora
 
