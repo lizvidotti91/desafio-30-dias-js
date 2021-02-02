@@ -30,7 +30,7 @@ Gostou da ideia? [Clique aqui](https://github.com/wesbos/JavaScript30) para part
 * [Dia 07 - Array Parte 2](https://github.com/lizvidotti91/desafio-30-dias-js/tree/main/Dia%207); 
 * [Dia 08 - Desenhando com o HTML Canvas](https://github.com/lizvidotti91/desafio-30-dias-js/tree/main/Dia%208); 
 * [Dia 09 - Ferramentas utéis no Dev Tools](https://github.com/lizvidotti91/desafio-30-dias-js/tree/main/Dia%209); 
-* [Dia 10 - To-do list](https://github.com/lizvidotti91/desafio-30-dias-js/tree/main/Dia%210); 
+* [Dia 10 - To-do list](https://github.com/lizvidotti91/desafio-30-dias-js/tree/main/Dia%2010); 
 
 ## Autora
 

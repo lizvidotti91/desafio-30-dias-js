@@ -2,7 +2,7 @@
 
 ![To-do list](./captured.gif?raw=true "To-do list")
 
-* [Link para o desafio](https://lizvidotti91.github.io/desafio-30-dias-js/Dia%210/index.html); 
+* [Link para o desafio](https://lizvidotti91.github.io/desafio-30-dias-js/Dia%2010/index.html); 
 
 ## Tecnologias Usadas
 
