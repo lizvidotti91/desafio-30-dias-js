@@ -1,8 +1,8 @@
-# Dia 11 - HTML Player de Vídeo
+# Dia 10 - To-do list
 
-![Player de Video](./captured.gif?raw=true "Player de Video")
+![To-do list](./captured.gif?raw=true "To-do list")
 
-* [Link para o desafio](https://lizvidotti91.github.io/desafio-30-dias-js/Dia%2011/index.html); 
+* [Link para o desafio](https://lizvidotti91.github.io/desafio-30-dias-js/Dia%2010/index.html); 
 
 ## Tecnologias Usadas
 
@@ -14,5 +14,4 @@
 
 * [AddEventListener JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/API/Element/addEventListener); 
 * [Eventos do mouse](https://developer.mozilla.org/pt-BR/docs/Web/API/MouseEvent); 
-* [Seletor fullscreen CSS](https://www.w3schools.com/csSref/sel_fullscreen.asp); 
-* [Tag Video](https://www.w3schools.com/html/html5_video.asp); 
+* [HTML input checkbox](https://www.w3schools.com/tags/att_input_type_checkbox.asp); 
