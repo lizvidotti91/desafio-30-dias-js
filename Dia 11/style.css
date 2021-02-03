@@ -1,0 +1,132 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    align-items: center;
+    background-color: #673ab7;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    justify-content: center;
+}
+
+h1{
+    color: whitesmoke;
+    font-size: 3vh;
+    margin-bottom: 4vh;
+}
+
+.player{
+    box-shadow: 5px 5px #482880;
+    overflow: hidden;
+    position: relative;
+    width: 50vw;
+}
+
+.player:fullscreen{
+    width: 100%;
+}
+
+.player .video{
+    width: 100%;
+}
+
+.player .player-controls{
+    bottom: 1.8vh;
+    left: 0;
+    position: absolute;
+    transform: translateY(100%) translateY(-5px);
+    transition: 0.3s;
+    width: 100%;
+}
+
+.player .player-controls:hover{
+    transform: translateY(0);
+}
+
+.progress{
+    background-color: #21212190;
+    cursor: ew-resize;
+    display: flex;
+    flex: 10;
+    flex-basis: 100%;
+    height: 2vh;
+    margin-bottom: 1vh;
+}
+
+.progress .progress-barra{
+    background-color: #ffea00;
+    flex: 0;
+    flex-basis: 100%;
+    height: 100%;
+    width: 100%;
+}
+
+.container{
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    padding: 0 2vw;
+}
+
+button.play{
+    background-color: transparent;
+    border: none;
+    color: #f5f5f5;
+    cursor: pointer;
+    font-size: 3vh;
+    margin: 0 1vw;
+    outline: none;
+    transition: 0.3s;
+}
+
+.play:hover{
+    color: #ffea00;
+}
+
+button.skip{
+    font-size: 2vh;
+}
+
+input.player-slide {
+  background: whitesmoke;
+  flex: 1;
+  height: 1.5vh;
+  margin: 0 1vw;
+  opacity: 0.7;
+  outline: none;
+  transition: opacity .2s;
+  -webkit-appearance: none;
+  -webkit-transition: .2s;
+}
+
+input.player-slide::-webkit-slider-thumb {
+  appearance: none;
+  background: #ffea00;
+  border-radius: 50%;
+  cursor: pointer;
+  height: 3vh; 
+  width: 3vh;
+  -webkit-appearance: none;
+}
+
+.btn-inicio{
+    background-color: whitesmoke;
+    border-radius: 1vh;
+    bottom: 2vh;
+    color:  #5f0937;
+    font-size: 3vh;
+    padding: 1vh 3vh;
+    position: absolute;
+    right: 2vw;
+    text-decoration: none;
+    transition: 0.03s;
+}
+
+.btn-inicio:hover{
+    box-shadow: 5px 5px 8px #5f0937;
+}
