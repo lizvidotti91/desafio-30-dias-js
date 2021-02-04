@@ -32,6 +32,7 @@ Gostou da ideia? [Clique aqui](https://github.com/wesbos/JavaScript30) para part
 * [Dia 09 - Ferramentas utéis no Dev Tools](https://github.com/lizvidotti91/desafio-30-dias-js/tree/main/Dia%209); 
 * [Dia 10 - To-do list](https://github.com/lizvidotti91/desafio-30-dias-js/tree/main/Dia%2010); 
 * [Dia 11 - HTML Player de Vídeo](https://github.com/lizvidotti91/desafio-30-dias-js/tree/main/Dia%2011); 
+* [Dia 12 - Sequência de Detecção de Chaves (Código Konami)](https://github.com/lizvidotti91/desafio-30-dias-js/tree/main/Dia%2012); 
 
 ## Autora
 
