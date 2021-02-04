@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: blueviolet;
+}
+
+.container{
+    color: whitesmoke;
+    margin: 4vh 0 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h1{
+    font-size: 4vh;
+}
+
+p{
+    font-size: 3vh;
+    margin-top: 2vh;
+}
+
+p strong{
+    color: black;
+}
+
+.btn-inicio{
+    background-color: whitesmoke;
+    border-radius: 1vh;
+    bottom: 2vh;
+    color:  #5f0937;
+    font-size: 3vh;
+    padding: 1vh 3vh;
+    position: absolute;
+    right: 2vw;
+    text-decoration: none;
+    transition: 0.03s;
+}
+
+.btn-inicio:hover{
+    box-shadow: 5px 5px 8px #5f0937;
+}
